@@ -2,26 +2,26 @@
 <extension>
   <name>39js</name>
   <version>1.0</version>
-  <author></author>
+  <author>Alasdair Morrison</author>
   <date>27/09/2011</date>
-  <license>Free to use, also for commercial games.</license>
+  <license>Free to use, also for commercial games. (LGPL)</license>
   <description></description>
   <helpfile></helpfile>
   <hidden>0</hidden>
   <installdir></installdir>
   <files>
     <file>
-      <filename>gmsocketio.js</filename>
-      <origname>extensions\gmsocketio.js</origname>
+      <filename>39js.js</filename>
+      <origname>extensions\39js.js</origname>
       <init></init>
       <final></final>
-      <kind>5</kind>
+      <kind>0</kind>
       <functions>
         <function>
           <name>dllinit</name>
           <externalName>dllinit</externalName>
           <kind>11</kind>
-          <id>6</id>
+          <id>1</id>
           <help></help>
           <hidden>0</hidden>
           <returnType>2</returnType>
@@ -36,7 +36,7 @@
           <name>tcpconnect</name>
           <externalName>tcpconnect</externalName>
           <kind>11</kind>
-          <id>7</id>
+          <id>3</id>
           <help></help>
           <hidden>0</hidden>
           <returnType>2</returnType>
@@ -51,7 +51,7 @@
           <name>clearbuffer</name>
           <externalName>clearbuffer</externalName>
           <kind>11</kind>
-          <id>8</id>
+          <id>5</id>
           <help></help>
           <hidden>0</hidden>
           <returnType>2</returnType>
@@ -62,7 +62,7 @@
           <name>writebyte</name>
           <externalName>writebyte</externalName>
           <kind>11</kind>
-          <id>9</id>
+          <id>7</id>
           <help></help>
           <hidden>0</hidden>
           <returnType>2</returnType>
@@ -75,7 +75,7 @@
           <name>writestring</name>
           <externalName>writestring</externalName>
           <kind>11</kind>
-          <id>10</id>
+          <id>9</id>
           <help></help>
           <hidden>0</hidden>
           <returnType>2</returnType>
@@ -101,7 +101,7 @@
           <name>writeshort</name>
           <externalName></externalName>
           <kind>11</kind>
-          <id>12</id>
+          <id>13</id>
           <help></help>
           <hidden>0</hidden>
           <returnType>2</returnType>
@@ -114,7 +114,7 @@
           <name>receivemessage</name>
           <externalName>receivemessage</externalName>
           <kind>11</kind>
-          <id>13</id>
+          <id>15</id>
           <help></help>
           <hidden>0</hidden>
           <returnType>2</returnType>
@@ -127,7 +127,7 @@
           <name>readbyte</name>
           <externalName>readbyte</externalName>
           <kind>11</kind>
-          <id>14</id>
+          <id>17</id>
           <help></help>
           <hidden>0</hidden>
           <returnType>2</returnType>
@@ -138,7 +138,7 @@
           <name>readshort</name>
           <externalName>readshort</externalName>
           <kind>11</kind>
-          <id>15</id>
+          <id>19</id>
           <help></help>
           <hidden>0</hidden>
           <returnType>2</returnType>
@@ -149,7 +149,7 @@
           <name>readstring</name>
           <externalName>readstring</externalName>
           <kind>11</kind>
-          <id>16</id>
+          <id>21</id>
           <help></help>
           <hidden>0</hidden>
           <returnType>1</returnType>
@@ -157,14 +157,20 @@
           <args/>
         </function>
       </functions>
-      <constants/>
+      <constants>
+        <constant>
+          <name>io</name>
+          <value></value>
+          <hidden>0</hidden>
+        </constant>
+      </constants>
     </file>
     <file>
       <filename>socket.io.js</filename>
       <origname>extensions\socket.io.js</origname>
       <init></init>
       <final></final>
-      <kind>5</kind>
+      <kind>0</kind>
       <functions/>
       <constants/>
     </file>

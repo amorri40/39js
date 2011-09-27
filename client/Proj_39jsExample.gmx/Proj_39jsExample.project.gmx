@@ -73,7 +73,6 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts"/>
   <objects name="objects">
     <object>objects\Messaging</object>
     <object>objects\player_me</object>

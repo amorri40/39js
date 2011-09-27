@@ -28,7 +28,7 @@
             <string>//Init DLL
 dllinit(0,true,false);
 //Server IP and port
-global.serverip = "192.168.2.2"; 
+global.serverip = "http://localhost"; 
 global.serverport = 8080;
 
 //Connect

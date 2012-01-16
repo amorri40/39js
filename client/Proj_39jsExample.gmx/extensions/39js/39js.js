@@ -34,7 +34,7 @@ tcpconnect = function(serverip, serverport) {
 clearbuffer = function() {
 	buffer = [];
 }
-writeshort = writebyte = writestring = function(value) {
+writeshort = writeushort = writeint = writeuint= writefloat=writedouble=writechars= writebyte = writestring = function(value) {
 	buffer.push(value);
 }
 

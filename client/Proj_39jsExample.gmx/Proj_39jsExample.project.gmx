@@ -24,6 +24,8 @@
     <screenshotkey>-1</screenshotkey>
     <closeesc>-1</closeesc>
     <priority>0</priority>
+    <GameID>938528254</GameID>
+    <GUID>{B7FB43C3-BC49-41C2-B056-25EDE452BE41}</GUID>
     <showprogress>1</showprogress>
     <hasloadimage>0</hasloadimage>
     <loadimage></loadimage>
@@ -50,7 +52,31 @@
     <version_product></version_product>
     <version_copyright></version_copyright>
     <version_description></version_description>
+    <html5_index>&lt;undefined&gt;</html5_index>
+    <html5_loadingbar></html5_loadingbar>
+    <html5_alwaysreload>0</html5_alwaysreload>
+    <html5_centergame>0</html5_centergame>
+    <html5_WebGL>0</html5_WebGL>
+    <html5_CreationEventOrder>0</html5_CreationEventOrder>
   </options>
+  <NewExtensions>
+    <extension index="0">extensions\39js</extension>
+  </NewExtensions>
+  <sounds name="sound"/>
+  <sprites name="sprites">
+    <sprite>sprites\spr_Player</sprite>
+  </sprites>
+  <backgrounds name="background"/>
+  <paths name="paths"/>
+  <scripts name="scripts"/>
+  <objects name="objects">
+    <object>objects\Messaging</object>
+    <object>objects\player_me</object>
+    <object>objects\player_other</object>
+  </objects>
+  <rooms name="rooms" roommaxid="100001" room_maxtileid="10000000">
+    <room>rooms\Main</room>
+  </rooms>
   <help>
     <mimic>0</mimic>
     <caption>Game Information</caption>
@@ -64,21 +90,4 @@
     <modal>-1</modal>
     <rtf>help.rtf</rtf>
   </help>
-  <NewExtensions>
-    <extension index="0">extensions\39js</extension>
-  </NewExtensions>
-  <sounds name="sound"/>
-  <sprites name="sprites">
-    <sprite>sprites\spr_Player</sprite>
-  </sprites>
-  <backgrounds name="background"/>
-  <paths name="paths"/>
-  <objects name="objects">
-    <object>objects\Messaging</object>
-    <object>objects\player_me</object>
-    <object>objects\player_other</object>
-  </objects>
-  <rooms name="rooms" roommaxid="100001" room_maxtileid="10000000">
-    <room>rooms\Main</room>
-  </rooms>
 </assets>

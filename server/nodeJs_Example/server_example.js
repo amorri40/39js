@@ -20,6 +20,14 @@
 var app = require('http').createServer(handler), io = require('socket.io')
 		.listen(app), fs = require('fs');
 
+io.configure('development', function(){
+  io.set('destroy upgrade', false);
+});
+
+io.configure('production', function(){
+  io.set('destroy upgrade', false);
+});
+
 // create the player array
 var global={};
 global.player = [];

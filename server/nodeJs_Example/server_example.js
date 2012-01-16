@@ -186,6 +186,17 @@ io.sockets.on('connection', function(socket) { // basically the tcpaccept functi
 				writeshort(pid);
 				send_all_players();
 				break;
+				
+			case 8:
+				//Someone sent a chat message
+				thename = readstring();
+				message = readstring();
+				clearbuffer();
+				writebyte(10);
+				writestring(thename);
+				writestring(message);
+				send_all_players();
+				break;
 			}
 
 		});

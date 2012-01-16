@@ -68,13 +68,19 @@
   </sprites>
   <backgrounds name="background"/>
   <paths name="paths"/>
-  <scripts name="scripts"/>
+  <scripts name="scripts">
+    <scripts name="Chat">
+      <script>scripts\add_line.gml</script>
+      <script>scripts\scr_chat_draw.gml</script>
+    </scripts>
+  </scripts>
   <objects name="objects">
     <object>objects\Messaging</object>
     <object>objects\player_me</object>
     <object>objects\player_other</object>
+    <object>objects\obj_chat</object>
   </objects>
-  <rooms name="rooms" roommaxid="100001" room_maxtileid="10000000">
+  <rooms name="rooms" roommaxid="100002" room_maxtileid="10000000">
     <room>rooms\Main</room>
   </rooms>
   <help>

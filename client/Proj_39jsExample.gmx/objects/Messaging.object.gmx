@@ -99,9 +99,11 @@ px=readshort();
 py=readshort();
 with (player_other){
 if (pid==Messaging.pid){
-x=Messaging.px;
-y=Messaging.py;
-
+//x=Messaging.px;
+//y=Messaging.py;
+move_towards_point(Messaging.px,Messaging.py,5);
+targetx=Messaging.px; 
+targety=Messaging.py;
 }
 
 }
@@ -187,7 +189,11 @@ instance_destroy();
 }
 
 }
+break;
 
+case 10:
+//someone sent a chat message
+add_line(readstring(),readstring());
 break;
 
 
